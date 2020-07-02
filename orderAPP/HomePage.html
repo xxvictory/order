@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+    <meta name="format-detection" content="telephone=no" />
+    <title>首页</title>
+    <link rel="icon" href="images/title.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/home-css.css">
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+    <script src="js/home-js.js" defer="defer"></script>
+</head>
+<body>
+    <!--页面顶部部分-->
+    <header class="head-box">
+        <div class="head-centent">
+            <div class="city">
+                <span id="city-name">昆明</span>
+                <i class="iconfont icon-jiantou" id="choose-city"></i>
+            </div>
+            <div class="centent-box">
+                <h2 id="centent-title">诚创纵横点餐系列一</h2>
+                <div id="hidden-search">
+                    <form id="top-seaFrm" action="" name="seaFrm" enctype="multipart/form-data" method="post">
+                        <input type="search" id="top-search" placeholder="搜一搜好吃的">
+                    </form>
+                </div>
+            </div>
+            <div class="search-icon">
+                <i class="iconfont icon-weibiaoti1" id="seaIco-1"></i>
+                <i class="iconfont icon-sousuo" id="seaIco-2"></i>
+            </div>
+        </div>
+
+
+
+    </header>
+    <div id="zhanwei-div"></div>
+
+    <!--页面轮播图部分-->
+    <div class="banner-box">
+        <div class="img-box">
+            <a href="MerchantDetails.html">
+                <img src="images/banner1.png" id="banner-img" alt="">
+            </a>
+            <a href="MerchantDetails.html">
+                <img src="images/banner2.jpg" alt="">
+            </a>
+            <a href="MerchantDetails.html">
+                <img src="images/banner3.jpg" alt="">
+            </a>
+            <a href="MerchantDetails.html">
+                <img src="images/banner4.jpg" alt="">
+            </a>
+            <a href="MerchantDetails.html">
+                <img src="images/banner5.jpg" alt="">
+            </a>
+        </div>
+        <div class="list-box">
+            <ul class="banner-list">
+                <li class="select-li" name="0"></li>
+                <li name="1"></li>
+                <li name="2"></li>
+                <li name="3"></li>
+                <li name="4"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--页面滚动消息部分-->
+    <div class="xiaoxi-box clearfix">
+        <div class="xiaoxi-icon">
+            <i class="iconfont icon-xiaoxi"></i>
+        </div>
+        <div class="xiaoxi-content">
+            <span class="xiaoxi-text"></span>
+        </div>
+    </div>
+
+    <!--页面菜单部分-->
+    <div class="menu-box">
+
+        <div class="menu-item">
+            <a href="LiJiDingCan.html" class="menu-item-link" id="menu-active">
+                <img src="images/menu1.png" alt="">
+                <br>
+                <span>立即订餐</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="Takeout.html" class="menu-item-link">
+                <img src="images/menu2.png" alt="">
+                <br>
+                <span>叫外卖</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="Reserve.html" class="menu-item-link">
+                <img src="images/menu3.png" alt="">
+                <br>
+                <span>餐厅订位</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="" class="menu-item-link">
+                <img src="images/menu4.png" alt="">
+                <br>
+                <span>健康主食</span>
+            </a>
+        </div>
+    </div>
+    <!--页面推荐餐厅部分-->
+    <!--标题部分-->
+    <div class="tuijian-title">
+        <h4>推荐餐厅</h4>
+    </div>
+    <!--主体部分-->
+    <div class="tuijian-list">
+        <!--<div class="tuijian-item">-->
+            <!--<div class="tuijian-item-top">-->
+                <!--<div class="tuijian-img">-->
+                    <!--<a href="">-->
+                        <!--<img src="images/shangjia1.png" alt="">-->
+                    <!--</a>-->
+                <!--</div>-->
+                <!--<div class="tuijian-content">-->
+                    <!--<h5 class="shangjia-title">-->
+                        <!--<a href="">商家标题1</a>-->
+                    <!--</h5>-->
+                    <!--<p class="shangjia-jiage">人均：￥20.00 | 10人预定</p>-->
+                    <!--<p class="tuijian-xingji">-->
+                        <!--<i class="iconfont icon-xingji xingji-red" ></i>-->
+                        <!--<i class="iconfont icon-xingji"></i>-->
+                        <!--<i class="iconfont icon-xingji"></i>-->
+                        <!--<i class="iconfont icon-xingji"></i>-->
+                        <!--<i class="iconfont icon-xingji"></i>-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<div class="tuijian-icon">-->
+                    <!--<span>订</span>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="tuijian-item-bottom">-->
+                <!--<span>南屏街金马坊</span>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+
+
+    <!--页面底部部分-->
+    <div id="zhanwei-div-bottom"></div>
+    <footer class="foot-box">
+        <a href="HomePage.html" class="footer-item" id="foot-active">
+            <i class="iconfont icon-shouye-copy"></i>
+            <br>
+            <span>首页</span>
+        </a>
+        <a href="FuJin.html" class="footer-item">
+            <i class="iconfont icon-fujin"></i>
+            <br>
+            <span>附近</span>
+        </a>
+        <a href="PersonalCenter.html" class="footer-item">
+            <i class="iconfont icon-yonghu"></i>
+            <br>
+            <span>用户</span>
+        </a>
+        <a href="More.html" class="footer-item">
+            <i class="iconfont icon-more"></i>
+            <br>
+            <span>更多</span>
+        </a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,207 @@
+body{
+    background:url("../images/bg-img.png");
+}
+
+/*页面顶部部分样式*/
+.head-box{
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #017E5C;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+.head-box a{
+    color: #FFFFFF;
+}
+.head-box a i{
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.more-title{
+    flex-grow: 1;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+
+/*页面筛选部分样式*/
+#sifting-box{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 10px;
+    display: flex;
+    background-color: #EEEEEE;
+
+}
+.sifting-item{
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
+}
+.sifting-item span{
+    color: black;
+    font-size: 16px;
+}
+.sifting-item>i{
+    color: #017E5C;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 12px;
+    line-height: 25px;
+    display: none;
+}
+#icon-active{
+    display: block;
+}
+
+#zhanwei-div{
+    width: 100%;
+    height: 80px;
+}
+
+
+/*主体部分样式*/
+
+/*预定订单内容区部分*/
+
+
+#YD-list{
+    padding: 10px;
+}
+/*外卖订单内容区部分*/
+
+#waimai-box{
+    display: none;
+}
+
+#WM-list{
+    padding: 10px;
+}
+
+/*全部订单内容区部分*/
+
+#quanbu-box{
+    display: none;
+}
+
+#QB-list{
+    padding: 10px;
+}
+/*商家列表部分*/
+.shangjia-item{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.shangjia-item-top{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.shangjia-img{
+    width: 90px;
+    height: 80px;
+}
+.shangjia-img img{
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px 5px 5px;
+}
+.shangjia-content{
+    flex-grow: 1;
+    height: 80px;
+}
+.shangjia-title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+}
+.shangjia-title a{
+    color: #000000;
+}
+.shangjia-title-icon{
+    width: 30px;
+    height: 80px;
+}
+.shangjia-title>span{
+    width: 40px;
+    height: 30px;
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: right;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+#ding-icon{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #017E5C;
+    line-height: 15px;
+    text-align: center;
+    font-style: normal;
+    margin-right: 5px;
+}
+#song-icon{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #F2BD47;
+    line-height: 15px;
+    text-align: center;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+.shangjia-jiage{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.shangjia-xingji{
+    width: 100px;
+    height: 25px;
+}
+.shangjia-xingji>i{
+    font-size: 16px;
+    color: #EEEEEE;
+}
+.shangjia-xingji>.xingji-red{
+    color: #FF0000;
+}
+
+
+.shangjia-item-bottom{
+    width: 100%;
+    height: 30px;
+    background-color: #EEEEEE;
+    line-height: 30px;
+    font-size: 16px;
+    color: #A6A6A6;
+}
+
+
+
+
+

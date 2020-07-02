@@ -1,0 +1,324 @@
+body{
+    background:url("../images/more-img/more-bg.png");
+}
+
+/*页面顶部部分样式*/
+.head-box{
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    position: fixed;
+}
+.head-box a{
+    color: #FFFFFF;
+}
+.head-box>a>i{
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.dingcan-title{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    background-color: #017E5C;
+}
+
+
+#zhanwei{
+    width: 100%;
+    height: 50px;
+}
+
+
+/*页面主体部分样式*/
+/*页面商家介绍部分样式*/
+#intro-box{
+    margin: 10px 10px 0px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+#intro-title{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 30px;
+}
+
+#intro-title h3{
+    height: 30px;
+    padding: 0px 5px;
+}
+#intro-title p{
+    height: 30px;
+    padding: 0px 5px;
+    position: relative;
+    color: #A6A6A6;
+}
+
+#intro-renshu{
+    position: absolute;
+    right: 10px;
+}
+#intro-tuijian{
+    height: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 30px;
+    position: relative;
+    padding: 0px 5px;
+    color: #A6A6A6;
+
+}
+#pinglunrenshu{
+    font-size: 14px;
+    position: absolute;
+    right: 30px;
+
+}
+#intro-tuijian .my-jiantou{
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    color: #A6A6A6;
+}
+#intro-img{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+}
+
+
+.intro-img-item{
+    flex-grow: 1;
+    width: 100%;
+    margin: 5px;
+}
+
+#intro-tel{
+    height: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-size: 14px;
+    position: relative;
+    color: #A6A6A6;
+}
+
+#intro-tel i{
+    font-size: 16px;
+    color: #017E5C;
+}
+#intro-tel .my-jiantou{
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    color: #A6A6A6;
+
+}
+
+#intro-address{
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-size: 14px;
+    position: relative;
+    color: #A6A6A6;
+}
+
+#intro-address i{
+    font-size: 16px;
+    color: #017E5C;
+}
+#intro-address .my-jiantou{
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    color: #A6A6A6;
+}
+
+
+/*页面推荐菜品部分样式*/
+#tuijian-box{
+    margin: 10px 10px 0px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+#tuijian-title{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+#tuijian-img{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #EEEEEE;
+    overflow: hidden;
+}
+
+#tuijian-img-list{
+    width: 1000px;
+    height: 80px;
+    display: flex;
+}
+
+.tuijian-img-item{
+    width: 100px;
+    height: 80px;
+    margin: 0px 10px;
+
+}
+
+#quanbucaipin{
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-size: 14px;
+    position: relative;
+    color: #F4C55D;
+}
+
+#quanbucaipin i{
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    color: #A6A6A6;
+}
+
+/*页面评论部分样式*/
+#pinglun-box{
+    margin: 10px 10px 0px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    line-height: 30px;
+}
+
+#pinglun-title{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+
+#pinglun-item{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 0px 5px;
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+#pinglun-all{
+    height: 30px;
+    padding: 0px 5px;
+    font-size: 14px;
+    position: relative;
+    color: #F4C55D;
+}
+
+#pinglun-all i{
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    color: #A6A6A6;
+}
+
+/*页面商家信息部分样式*/
+
+#xinxi-box{
+    margin: 10px 10px 0px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    line-height: 30px;
+}
+
+#xinxi-title{
+    height: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+
+#xinxi-main{
+    padding: 0px 5px;
+    font-size: 14px;
+    color: #A6A6A6;
+
+}
+
+
+
+
+
+
+/*页面底部部分样式*/
+
+#zhanwei-xia{
+    width: 100%;
+    height: 50px;
+}
+
+#footer-box{
+    width: 100%;
+    height: 50px;
+    background-color: #EEEEEE;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+#footer-main{
+    padding: 0px 20px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+}
+
+#shoucang1{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 24px;
+    color: #A6A6A6;
+    user-select: none;
+}
+
+#shoucang2{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 24px;
+    color: #FF0000;
+    display: none;
+    user-select: none;
+}
+
+#yuding-btn{
+    width: 80%;
+    height: 30px;
+    background-color: #F2BD47;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+
+}
+#fenxiang{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 22px;
+    color: #A6A6A6;
+}

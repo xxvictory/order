@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telephone=no" />
+    <title>预订</title>
+    <link rel="shortcut icon" href="images/title.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reserve-css.css">
+    <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+    <script src="js/jQuery%201.7.2.js"></script>
+    <script src="js/reserve-js.js" defer="defer"></script>
+</head>
+<body>
+<!--页面顶部部分-->
+<header class="head-box">
+    <a href="HomePage.html">
+        <i class="iconfont icon-fanhui"></i>
+    </a>
+    <h2 class="dingcan-title">预订</h2>
+
+</header>
+<div id="zhanwei"></div>
+
+
+<!--页面主体部分-->
+
+<!--页面日期选择部分-->
+<div id="date-box">
+
+    <table id="date-select">
+        <tr class="date-list">
+            <td id="date-title" colspan="2">
+                <span id="title-text">日期选择</span>
+
+
+            </td>
+            <td id="date-btn"colspan="5">
+                <i class="iconfont icon-shangyinian" id="before-year"></i>
+                <i class="iconfont icon-shangyiyueicon" id="bofore-month"></i>
+                <span id="year-month"></span>
+                <i class="iconfont icon-xiayiyueicon" id="next-month"></i>
+                <i class="iconfont icon-xiayinian" id="next-year"></i>
+            </td>
+        </tr>
+        
+        <tr class="week-list">
+            <td class="week-item">周一</td>
+            <td class="week-item">周二</td>
+            <td class="week-item">周三</td>
+            <td class="week-item">周四</td>
+            <td class="week-item">周五</td>
+            <td class="week-item">周六</td>
+            <td class="week-item">周日</td>
+        </tr>
+        <tr class="day-list">
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+        </tr>
+        <tr class="day-list">
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+        </tr>
+        <tr class="day-list">
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+        </tr>
+        <tr class="day-list">
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+        </tr>
+        <tr class="day-list">
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+        </tr>
+        <tr class="day-list">
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+            <td class="day-item"></td>
+        </tr>
+        <tr class="time-list">
+            <td id="time-select" colspan="4"></td>
+            <td id="time-text" colspan="3">选择时间</td>
+        </tr>
+    </table>
+    
+
+
+</div>
+
+
+<!--页面选桌点菜部分-->
+<div id="order-dishes">
+    <div class="order-dishes-item">
+        <h3>选菜/点桌</h3>
+    </div>
+    <div class="order-dishes-item" id="xuancai">
+        <span>选菜</span>
+        <i class="iconfont icon-jiantou1"></i>
+    </div>
+    <div class="order-dishes-item" id="dianzhuo">
+        <span id="dianzhuo-1">点桌</span>
+        <span id="dianzhuo-2">共2个菜，25元</span>
+        <i class="iconfont icon-jiantou1"></i>
+    </div>
+
+</div>
+
+<form action="">
+    <!--页面联系信息部分-->
+    <div id="contact-box">
+
+        <div id="contact-title">
+            <h3>联系信息</h3>
+        </div>
+        <div class="contact-item">
+            <span>就餐人数：</span>
+            <input type="text">
+        </div>
+        <div class="contact-item">
+            <span>联&nbsp;系&nbsp;人：</span>
+            <input type="text">
+        </div>
+        <div class="contact-item">
+            <span>联系电话：</span>
+            <input type="text">
+        </div>
+        <div class="contact-item">
+            <span>备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：</span>
+            <input type="text">
+        </div>
+
+
+    </div>
+    <!--页面提交订单部分-->
+    <div id="submit-btn">
+        <input type="submit" value="提交订单">
+    </div>
+
+</form>
+
+
+</body>
+</html>

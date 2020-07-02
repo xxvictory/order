@@ -1,0 +1,347 @@
+body{
+    background:url("../images/more-img/more-bg.png");
+}
+
+/*页面顶部部分样式*/
+/*页面顶部标题部分样式*/
+.head-box{
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+
+}
+
+.more-title{
+    flex-grow: 1;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    position: relative;
+    background-color: #017E5C;
+}
+.more-title i{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 26px;
+}
+
+
+
+
+/*页面选项卡部分样式*/
+.xuanxiang-box{
+    width: 100%;
+    background: url("../images/bg-img.png") no-repeat;
+}
+.xuanxiang-list{
+    text-align: center;
+}
+.xuanxiang-item{
+    display: inline-block;
+    margin: 9px;
+    height: 30px;
+    width: 20%;
+    background-color: #EEEEEE;
+    color: #017E5C;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    border: 1px solid #D5D5D5;
+}
+#xuanxiang-active{
+    color: #FFFFFF;
+    background-color: #F2BD47;
+}
+
+/*页面筛选部分样式*/
+#sifting-box{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 10px;
+    display: flex;
+    background-color: #EEEEEE;
+
+}
+.sifting-item{
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
+}
+.sifting-item span{
+    color: black;
+    font-size: 16px;
+}
+.sifting-item i{
+    color: #017E5C;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 12px;
+    line-height: 25px;
+}
+/*筛选下拉列表部分样式*/
+
+
+#quancheng-select{
+    width: 100%;
+    height: 0px;
+    background-color: rgba(187,187,187,0.7);
+    position: fixed;
+    left: 0px;
+    top: 130px;
+    z-index: 1;
+    transition: all 1s;
+    overflow: hidden;
+
+}
+
+#quyu-name-box{
+    background-color: #F9F9F9;
+    padding: 5px;
+    text-align: center;
+}
+.quyu-name{
+    width: 28%;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #D9D8D8;
+    background-color: #FFFFFF;
+    margin: 5px;
+    display: inline-block;
+    color: #BABABA;
+    font-size: 14px;
+}
+
+#quyudingwei{
+    background-color: #F9F9F9;
+    padding: 10px;
+}
+#quyudingwei-left{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+#quyudingwei-left i{
+    color: #017E5C;
+    font-size: 18px;
+}
+#quyudingwei-left span{
+    font-size: 14px;
+    color: #BABABA;
+}
+#quyudingwei-right{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+#quyudingwei-right a{
+    font-size: 14px;
+    color: #BABABA;
+}
+#quyudingwei-right i{
+    font-size: 12px;
+}
+#quyudingwei hr{
+    border: 0;
+    border-top: 1px solid #D9D8D8;
+    margin: 0px;
+}
+
+#quanbucaipin-select{
+    width: 100%;
+    height: 0px;
+    background-color: rgba(187,187,187,0.7);
+    position: fixed;
+    left: 0px;
+    top: 130px;
+    z-index: 1;
+    transition: all 1s;
+    overflow: hidden;
+
+}
+
+#caipin-name-box{
+    background-color: #F9F9F9;
+    padding: 5px;
+    text-align: center;
+}
+.caipin-name{
+    width: 28%;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #D9D8D8;
+    background-color: #FFFFFF;
+    margin: 5px;
+    display: inline-block;
+    color: #BABABA;
+    font-size: 14px;
+}
+#zhanwei-div{
+    width: 100%;
+    height: 130px;
+}
+
+/*页面内容区部分样式*/
+/*预定内容区部分*/
+#waimai-box{
+    display: none;
+}
+#YD-list{
+    padding: 10px;
+}
+/*外卖内容区部分*/
+
+#WM-list{
+    padding: 10px;
+}
+
+/*商家列表部分*/
+.shangjia-item{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.shangjia-item-top{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.shangjia-img{
+    width: 90px;
+    height: 80px;
+}
+.shangjia-img img{
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px 5px 5px;
+}
+.shangjia-content{
+    flex-grow: 1;
+    height: 80px;
+}
+.shangjia-title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+}
+.shangjia-title a{
+    color: #000000;
+}
+.shangjia-title-icon{
+    width: 30px;
+    height: 80px;
+}
+.shangjia-title>span{
+    width: 40px;
+    height: 30px;
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: right;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+#ding-icon{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #017E5C;
+    line-height: 15px;
+    text-align: center;
+    font-style: normal;
+    margin-right: 5px;
+}
+#song-icon{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #F2BD47;
+    line-height: 15px;
+    text-align: center;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+.shangjia-jiage{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.shangjia-xingji{
+    width: 100px;
+    height: 25px;
+}
+.shangjia-xingji>i{
+    font-size: 16px;
+    color: #EEEEEE;
+}
+.shangjia-xingji>.xingji-red{
+    color: #FF0000;
+}
+
+
+.shangjia-item-bottom{
+    width: 100%;
+    height: 30px;
+    background-color: #EEEEEE;
+    line-height: 30px;
+    font-size: 16px;
+    color: #A6A6A6;
+}
+
+
+
+
+
+
+
+
+/*页面底部部分样式*/
+#zhanwei-div-bottom{
+    width: 100%;
+    height: 60px;
+}
+.foot-box{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #EEEEEE;
+}
+.footer-item{
+    flex-grow: 1;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    color: #A6A6A6;
+    padding: 5px 0px;
+}
+.footer-item>i{
+    font-size: 20px;
+    position: relative;
+    left: 3px;
+}
+.footer-item>span{
+    font-size: 18px;
+}
+#foot-active{
+    background-color: #017E5C;
+    color: #EEF5F3;
+}

@@ -1,0 +1,165 @@
+body{
+    background:url("../images/more-img/more-bg.png");
+}
+
+/*页面顶部部分样式*/
+.head-box{
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #017E5C;
+    position: relative;
+
+}
+.head-box a{
+    color: #FFFFFF;
+}
+.head-box i{
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.more-title{
+    flex-grow: 1;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+/*页面主体部分样式*/
+/*问候区部分样式*/
+.greeting-box{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.greeting-box span{
+    font-size: 20px;
+    color: #017E5C;
+}
+
+/*表单区部分样式*/
+.form-box{
+    margin: 10px 20px 10px 20px;
+}
+.form-box span{
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.green-span{
+    color: green;
+}
+.red-span{
+    color: red;
+}
+.tel-ipt{
+    height: 40px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+}
+
+.tel-ipt input{
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+}
+.name-ipt{
+    height: 40px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+}
+
+.name-ipt input{
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+}
+.password-ipt-1{
+    height: 40px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+}
+
+.password-ipt-1 input{
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+}
+.password-ipt-2{
+    height: 40px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+}
+
+.password-ipt-2 input{
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+}
+.check-ipt{
+    height: 40px;
+    margin: 10px;
+    text-align: right;
+    line-height: 40px;
+}
+
+.submit-ipt{
+    height: 40px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+}
+.submit-ipt input{
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    padding: 0px;
+    background-color: #F2BD47;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 18px;
+
+}

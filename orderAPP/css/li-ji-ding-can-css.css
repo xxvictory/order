@@ -1,0 +1,242 @@
+body{
+    background:url("../images/more-img/more-bg.png");
+}
+
+/*页面顶部部分样式*/
+.head-box{
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    position: fixed;
+}
+.head-box a{
+    color: #FFFFFF;
+}
+.head-box>a>i{
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.dingcan-title{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    background-color: #017E5C;
+}
+#sifting-box{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 10px;
+    display: flex;
+    background-color: #EEEEEE;
+
+}
+.sifting-item{
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
+}
+.sifting-item span{
+    color: black;
+    font-size: 16px;
+}
+.sifting-item i{
+    color: #017E5C;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 12px;
+    line-height: 25px;
+}
+/*筛选下拉列表部分样式*/
+
+
+#quancheng-select{
+    width: 100%;
+    height: 0px;
+    background-color: rgba(187,187,187,0.7);
+    position: fixed;
+    left: 0px;
+    top: 80px;
+    z-index: 1;
+    transition: all 1s;
+    overflow: hidden;
+
+}
+
+#quyu-name-box{
+    background-color: #F9F9F9;
+    padding: 5px;
+    text-align: center;
+}
+.quyu-name{
+    width: 28%;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #D9D8D8;
+    background-color: #FFFFFF;
+    margin: 5px;
+    display: inline-block;
+    color: #BABABA;
+    font-size: 14px;
+}
+
+#quyudingwei{
+    background-color: #F9F9F9;
+    padding: 10px;
+}
+#quyudingwei-left{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+#quyudingwei-left i{
+    color: #017E5C;
+    font-size: 18px;
+}
+#quyudingwei-left span{
+    font-size: 14px;
+    color: #BABABA;
+}
+#quyudingwei-right{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+#quyudingwei-right a{
+    font-size: 14px;
+    color: #BABABA;
+}
+#quyudingwei-right i{
+    font-size: 12px;
+}
+#quyudingwei hr{
+    border: 0;
+    border-top: 1px solid #D9D8D8;
+    margin: 0px;
+}
+
+#quanbucaipin-select{
+    width: 100%;
+    height: 0px;
+    background-color: rgba(187,187,187,0.7);
+    position: fixed;
+    left: 0px;
+    top: 80px;
+    z-index: 1;
+    transition: all 1s;
+    overflow: hidden;
+
+}
+
+#caipin-name-box{
+    background-color: #F9F9F9;
+    padding: 5px;
+    text-align: center;
+}
+.caipin-name{
+    width: 28%;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #D9D8D8;
+    background-color: #FFFFFF;
+    margin: 5px;
+    display: inline-block;
+    color: #BABABA;
+    font-size: 14px;
+}
+
+
+
+#zhanwei{
+    width: 100%;
+    height: 80px;
+}
+/*页面餐厅列表部分样式*/
+
+.tuijian-list{
+    padding: 10px;
+}
+.tuijian-item{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.tuijian-item-top{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.tuijian-img{
+    width: 90px;
+    height: 80px;
+}
+.tuijian-img img{
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px 5px 5px;
+}
+.tuijian-content{
+    flex-grow: 1;
+    height: 80px;
+}
+.shangjia-title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.shangjia-title a{
+    color: #000000;
+}
+.shangjia-jiage{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.tuijian-xingji{
+    width: 100px;
+    height: 25px;
+}
+.tuijian-xingji>i{
+    font-size: 16px;
+    color: #EEEEEE;
+}
+.tuijian-xingji>.xingji-red{
+    color: #FF0000;
+}
+.tuijian-icon{
+    width: 30px;
+    height: 80px;
+}
+.tuijian-icon>span{
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: #017E5C;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.tuijian-item-bottom{
+    width: 100%;
+    height: 30px;
+    background-color: #EEEEEE;
+    line-height: 30px;
+    font-size: 16px;
+    color: #A6A6A6;
+}
+

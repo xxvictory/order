@@ -1,0 +1,320 @@
+body{
+    background:url("../images/bg-img.png");
+}
+
+/*页面顶部部分样式*/
+.head-box{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
+.head-centent{
+    display: flex;
+
+    background-color: #017E5C;
+}
+.city{
+    background-color: #F2BD47;
+    height: 30px;
+    padding: 10px 10px;
+    line-height: 30px;
+
+}
+#city-name{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+#choose-city{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.centent-box{
+    flex-grow: 1;
+    height: 50px;
+    position: relative;
+}
+.centent-box h2{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 50px;
+}
+#hidden-search{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: right;
+    display: none;
+
+}
+#top-search{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 30px;
+    opacity: 0.7;
+    font-size: 18px;
+    text-indent: 10px;
+    outline: none;
+}
+.search-icon{
+    height: 50px;
+    width: 30px;
+    padding-right: 10px;
+    line-height: 50px;
+    text-align: right;
+}
+.search-icon i{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#seaIco-2{
+    display: none;
+}
+
+#zhanwei-div{
+    width: 100%;
+    height: 50px;
+}
+
+/*页面轮播图部分样式*/
+.banner-box{
+    width: 100%;
+    position: relative;
+}
+.img-box{
+    width: 100%;
+}
+.img-box img{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all 2s;
+}
+#banner-img{
+    position: static;
+    opacity: 1;
+}
+.list-box{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    left: 0px;
+    bottom: 5%;
+}
+.banner-list{
+    width: 60%;
+    height:100%;
+    display: flex;
+    margin: 0px auto;
+    list-style: none;
+    justify-content:space-between;
+}
+.banner-list>li{
+    width: 18%;
+    height: 100%;
+    background-color: #017E5C;
+}
+.banner-list>.select-li{
+    background-color: #EEEEEE;
+}
+/*页面滚动消息部分*/
+.xiaoxi-box{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #EEEEEE;
+}
+.xiaoxi-icon{
+    width: 25px;
+    height: 100%;
+    line-height: 30px;
+    margin-left: 10px;
+    float: left;
+    color: #1D8B6D;
+}
+.xiaoxi-icon>i{
+    font-size: 22px;
+}
+.xiaoxi-content{
+    flex-grow: 1;
+    height: 100%;
+    line-height: 30px;
+    float: left;
+    color: #010000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.xiaoxi-text{
+    font-size: 12px;
+}
+/*页面菜单部分样式*/
+.menu-box{
+    display: flex;
+    height: 80px;
+    padding: 10px;
+}
+.menu-item{
+    flex-grow: 1;
+}
+.menu-item-link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #A6A6A6;
+}
+#menu-active{
+    color: #017E5C;
+}
+.menu-item-link>img{
+    width: 45px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 3px;
+}
+/*页面推荐菜单部分*/
+/*标题部分样式*/
+.tuijian-title{
+    display: flex;
+    height: 25px;
+    color: #017E5C;
+    padding:0px 10px;
+    line-height: 25px;
+    background-color: #EEEEEE;
+}
+.tuijian-title>h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+/*主体部分样式*/
+.tuijian-list{
+    padding: 10px;
+}
+.tuijian-item{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.tuijian-item-top{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.tuijian-img{
+    width: 90px;
+    height: 80px;
+}
+.tuijian-img img{
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px 5px 5px;
+}
+.tuijian-content{
+    flex-grow: 1;
+    height: 80px;
+}
+.shangjia-title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.shangjia-title a{
+    color: #000000;
+}
+.shangjia-jiage{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.tuijian-xingji{
+    width: 100px;
+    height: 25px;
+}
+.tuijian-xingji>i{
+    font-size: 16px;
+    color: #EEEEEE;
+}
+.tuijian-xingji>.xingji-red{
+    color: #FF0000;
+}
+.tuijian-icon{
+    width: 30px;
+    height: 80px;
+}
+.tuijian-icon>span{
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: #017E5C;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.tuijian-item-bottom{
+    width: 100%;
+    height: 30px;
+    background-color: #EEEEEE;
+    line-height: 30px;
+    font-size: 16px;
+    color: #A6A6A6;
+}
+
+
+/*页面底部部分样式*/
+
+#zhanwei-div-bottom{
+    width: 100%;
+    height: 50px;
+}
+.foot-box{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #EEEEEE;
+}
+.footer-item{
+    flex-grow: 1;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    color: #A6A6A6;
+    padding: 5px 0px;
+}
+.footer-item>i{
+    font-size: 20px;
+    position: relative;
+    left: 3px;
+}
+.footer-item>span{
+    font-size: 18px;
+}
+#foot-active{
+    background-color: #017E5C;
+    color: #EEF5F3;
+}
